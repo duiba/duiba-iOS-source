@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1198611BFC2D8E009666AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1198601BFC2D8E009666AC /* main.m */; };
+		2B1198641BFC2D8E009666AC /* CreditAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1198631BFC2D8E009666AC /* CreditAppDelegate.m */; };
+		2B1198671BFC2D8E009666AC /* CreditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1198661BFC2D8E009666AC /* CreditViewController.m */; };
+		2B11986A1BFC2D8E009666AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1198681BFC2D8E009666AC /* Main.storyboard */; };
+		2B11986C1BFC2D8E009666AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B11986B1BFC2D8E009666AC /* Assets.xcassets */; };
+		2B11986F1BFC2D8E009666AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B11986D1BFC2D8E009666AC /* LaunchScreen.storyboard */; };
+		2B1198821BFC3461009666AC /* CreditNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B11987D1BFC3461009666AC /* CreditNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		2B1198831BFC3461009666AC /* CreditWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B11987F1BFC3461009666AC /* CreditWebView.m */; settings = {ASSET_TAGS = (); }; };
+		2B1198841BFC3461009666AC /* CreditWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1198811BFC3461009666AC /* CreditWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2B1198891BFC34A4009666AC /* enter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1198861BFC34A4009666AC /* enter@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B11988A1BFC34A4009666AC /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1198871BFC34A4009666AC /* logo@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B11988B1BFC34A4009666AC /* snapshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1198881BFC34A4009666AC /* snapshot@2x.png */; settings = {ASSET_TAGS = (); }; };
+		2B11988D1BFC394B009666AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B11988C1BFC394B009666AC /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B11985C1BFC2D8E009666AC /* duiba-source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "duiba-source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1198601BFC2D8E009666AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B1198621BFC2D8E009666AC /* CreditAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditAppDelegate.h; sourceTree = "<group>"; };
+		2B1198631BFC2D8E009666AC /* CreditAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditAppDelegate.m; sourceTree = "<group>"; };
+		2B1198651BFC2D8E009666AC /* CreditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditViewController.h; sourceTree = "<group>"; };
+		2B1198661BFC2D8E009666AC /* CreditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditViewController.m; sourceTree = "<group>"; };
+		2B1198691BFC2D8E009666AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B11986B1BFC2D8E009666AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B11986E1BFC2D8E009666AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1198701BFC2D8E009666AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B11987B1BFC3461009666AC /* CreditConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditConstant.h; path = source/CreditConstant.h; sourceTree = "<group>"; };
+		2B11987C1BFC3461009666AC /* CreditNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditNavigationController.h; path = source/CreditNavigationController.h; sourceTree = "<group>"; };
+		2B11987D1BFC3461009666AC /* CreditNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditNavigationController.m; path = source/CreditNavigationController.m; sourceTree = "<group>"; };
+		2B11987E1BFC3461009666AC /* CreditWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditWebView.h; path = source/CreditWebView.h; sourceTree = "<group>"; };
+		2B11987F1BFC3461009666AC /* CreditWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditWebView.m; path = source/CreditWebView.m; sourceTree = "<group>"; };
+		2B1198801BFC3461009666AC /* CreditWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditWebViewController.h; path = source/CreditWebViewController.h; sourceTree = "<group>"; };
+		2B1198811BFC3461009666AC /* CreditWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditWebViewController.m; path = source/CreditWebViewController.m; sourceTree = "<group>"; };
+		2B1198861BFC34A4009666AC /* enter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "enter@2x.png"; path = "image/enter@2x.png"; sourceTree = "<group>"; };
+		2B1198871BFC34A4009666AC /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "image/logo@2x.png"; sourceTree = "<group>"; };
+		2B1198881BFC34A4009666AC /* snapshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snapshot@2x.png"; path = "image/snapshot@2x.png"; sourceTree = "<group>"; };
+		2B11988C1BFC394B009666AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1198591BFC2D8E009666AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1198531BFC2D8E009666AC = {
+			isa = PBXGroup;
+			children = (
+				2B11985E1BFC2D8E009666AC /* duiba-source */,
+				2B11985D1BFC2D8E009666AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B11985D1BFC2D8E009666AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B11985C1BFC2D8E009666AC /* duiba-source.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B11985E1BFC2D8E009666AC /* duiba-source */ = {
+			isa = PBXGroup;
+			children = (
+				2B1198851BFC348E009666AC /* images */,
+				2B11987A1BFC3446009666AC /* source */,
+				2B1198621BFC2D8E009666AC /* CreditAppDelegate.h */,
+				2B1198631BFC2D8E009666AC /* CreditAppDelegate.m */,
+				2B1198651BFC2D8E009666AC /* CreditViewController.h */,
+				2B1198661BFC2D8E009666AC /* CreditViewController.m */,
+				2B1198681BFC2D8E009666AC /* Main.storyboard */,
+				2B11986B1BFC2D8E009666AC /* Assets.xcassets */,
+				2B11986D1BFC2D8E009666AC /* LaunchScreen.storyboard */,
+				2B1198701BFC2D8E009666AC /* Info.plist */,
+				2B11988C1BFC394B009666AC /* Images.xcassets */,
+				2B11985F1BFC2D8E009666AC /* Supporting Files */,
+			);
+			path = "duiba-source";
+			sourceTree = "<group>";
+		};
+		2B11985F1BFC2D8E009666AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B1198601BFC2D8E009666AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B11987A1BFC3446009666AC /* source */ = {
+			isa = PBXGroup;
+			children = (
+				2B11987B1BFC3461009666AC /* CreditConstant.h */,
+				2B11987C1BFC3461009666AC /* CreditNavigationController.h */,
+				2B11987D1BFC3461009666AC /* CreditNavigationController.m */,
+				2B11987E1BFC3461009666AC /* CreditWebView.h */,
+				2B11987F1BFC3461009666AC /* CreditWebView.m */,
+				2B1198801BFC3461009666AC /* CreditWebViewController.h */,
+				2B1198811BFC3461009666AC /* CreditWebViewController.m */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		2B1198851BFC348E009666AC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B1198861BFC34A4009666AC /* enter@2x.png */,
+				2B1198871BFC34A4009666AC /* logo@2x.png */,
+				2B1198881BFC34A4009666AC /* snapshot@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B11985B1BFC2D8E009666AC /* duiba-source */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1198731BFC2D8E009666AC /* Build configuration list for PBXNativeTarget "duiba-source" */;
+			buildPhases = (
+				2B1198581BFC2D8E009666AC /* Sources */,
+				2B1198591BFC2D8E009666AC /* Frameworks */,
+				2B11985A1BFC2D8E009666AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "duiba-source";
+			productName = "duiba-source";
+			productReference = 2B11985C1BFC2D8E009666AC /* duiba-source.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1198541BFC2D8E009666AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = duiba;
+				TargetAttributes = {
+					2B11985B1BFC2D8E009666AC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B1198571BFC2D8E009666AC /* Build configuration list for PBXProject "duiba-source" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1198531BFC2D8E009666AC;
+			productRefGroup = 2B11985D1BFC2D8E009666AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B11985B1BFC2D8E009666AC /* duiba-source */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B11985A1BFC2D8E009666AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B11988A1BFC34A4009666AC /* logo@2x.png in Resources */,
+				2B11986F1BFC2D8E009666AC /* LaunchScreen.storyboard in Resources */,
+				2B11988D1BFC394B009666AC /* Images.xcassets in Resources */,
+				2B11988B1BFC34A4009666AC /* snapshot@2x.png in Resources */,
+				2B11986C1BFC2D8E009666AC /* Assets.xcassets in Resources */,
+				2B11986A1BFC2D8E009666AC /* Main.storyboard in Resources */,
+				2B1198891BFC34A4009666AC /* enter@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1198581BFC2D8E009666AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1198831BFC3461009666AC /* CreditWebView.m in Sources */,
+				2B1198671BFC2D8E009666AC /* CreditViewController.m in Sources */,
+				2B1198641BFC2D8E009666AC /* CreditAppDelegate.m in Sources */,
+				2B1198821BFC3461009666AC /* CreditNavigationController.m in Sources */,
+				2B1198841BFC3461009666AC /* CreditWebViewController.m in Sources */,
+				2B1198611BFC2D8E009666AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B1198681BFC2D8E009666AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1198691BFC2D8E009666AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B11986D1BFC2D8E009666AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B11986E1BFC2D8E009666AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1198711BFC2D8E009666AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B1198721BFC2D8E009666AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1198741BFC2D8E009666AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "duiba-source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.duiba.duiba-source";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B1198751BFC2D8E009666AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "duiba-source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.duiba.duiba-source";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1198571BFC2D8E009666AC /* Build configuration list for PBXProject "duiba-source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1198711BFC2D8E009666AC /* Debug */,
+				2B1198721BFC2D8E009666AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1198731BFC2D8E009666AC /* Build configuration list for PBXNativeTarget "duiba-source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1198741BFC2D8E009666AC /* Debug */,
+				2B1198751BFC2D8E009666AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1198541BFC2D8E009666AC /* Project object */;
+}
